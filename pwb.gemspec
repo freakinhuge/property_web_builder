@@ -45,7 +45,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'simple_form'
   s.add_dependency 'fog-aws'
   # , require: 'fog-aws'
-  s.add_dependency 'pg'
+  s.add_dependency 'pg', '>= 1.2.3'
   s.add_dependency 'devise'
   s.add_dependency 'devise-i18n'
   s.add_dependency 'omniauth'
