@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'rails', '>= 5.1.0'
   s.add_dependency 'money-rails', '~>1'
-  s.add_dependency 'globalize', '~> 5.1.0.beta2'
+  s.add_dependency 'globalize', '~> 5.3.0'
   # cannot add globalize here till there is a rails 5
   # compatible tag
   # spt 2017 - rails 5 now supported by globalize
@@ -45,7 +45,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'simple_form'
   s.add_dependency 'fog-aws'
   # , require: 'fog-aws'
-  s.add_dependency 'pg', '< 1.0'
+  s.add_dependency 'pg'
   s.add_dependency 'devise'
   s.add_dependency 'devise-i18n'
   s.add_dependency 'omniauth'
